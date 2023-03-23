@@ -1,0 +1,45 @@
+table {
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  td.selected {
+    background-color: lightblue;
+  }
+  
+  .dialog {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  li.disponivel {
+    background-color: lightgreen;
+  }
+  
+  li.indisponivel {
+    background-color: lightgray;
+    color: gray;
+  }
